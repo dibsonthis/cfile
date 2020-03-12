@@ -84,7 +84,3 @@ class CFile():
         with open(self.file_path,'w') as file:
             pass
         return self
-
-cf = CFile()
-
-f = cf.create('test.py')
